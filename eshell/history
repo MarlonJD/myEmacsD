@@ -1,0 +1,128 @@
+python filler.py
+python filler.py
+python filler.py
+python manage.py flush
+python manage.py createsuperuser
+python filler.py
+python filler.py
+python filler.py
+python manage.py runserver
+python manage.py shell
+python filler.py
+python filler.py
+python filler.py
+python filler.py
+python filler.py
+python filler.py
+python filler.py
+python filler.py
+python filler.py
+python filler.py
+python filler.py
+python manage.py makemigrations
+python manage.py migrate
+python filler.py
+python manage.py flush
+python manage.py createsuperuser
+python filler.py
+python filler.py
+python filler.py
+python filler.py
+python filler.py
+python filler.py
+python filler.py
+python filler.py
+python manage.py flush
+python manage.py createsuperuser
+y
+python filler.py
+python filler.py
+git status
+git rm db.sqlite3
+git status
+git rm db.sqlite3
+git add*
+git add *
+git status
+git status
+git rm db.sqlite3
+git commit -m "Add changes"
+git push
+git pull
+git push
+git pull
+git pull
+git commit
+git status
+git commit -m "Add changes"
+git push
+git push heroku master
+git rm db.sqlite3
+git status
+git commit -m "Remove db.sqlite3"
+git push
+heroku
+heroku run python manage.py migrate
+heroku run python manage.py migrate -a morning-citadel-23238
+heroku run python manage.py flush
+heroku run -a morning-citadel-23238 python manage.py flush
+heroku run -a morning-citadel-23238 python manage.py migrate
+heroku run -a morning-citadel-23238 python filler.py
+git status
+git add *
+git add *
+git status
+git commit -m "Add analytics"
+git push
+git add *
+git status
+git add *
+git commit -m "Add analytics"
+git push
+git add *
+git commit -m "Add analytics"
+git push
+cd ..
+cd ..
+cd ..
+git clone https://github.com/marlonjd/polnet-cagri
+git clone https://github.com/marlonjd/polnetCagri
+cd polnet
+cd polnetCagri/
+ls
+python test.py
+python test.py
+cd ..
+cd ..
+git status
+git pull
+git pull
+git status
+git add *
+git add cagri/static/cagri/fontawesome/
+git status
+git commit -m "Add offline fontawesome"
+git push
+python manage.py startapp api
+django-admin startapp api
+django-admin startapp api
+pip install -r requirements.txt 
+python manage.py makemigrations
+cd ..
+python manage.py makemigrations
+python manage.py migrate
+python manage.py shell
+python manage.py shell
+clc
+clear
+python manage.py shell
+python manage.py shell
+python manage.py makemigrations
+python manage.py migrate
+python manage.py shell
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py migrate
+python manage.py shell
+python manage.py runserver
+python manage.py runserver
