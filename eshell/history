@@ -1,128 +1,128 @@
-export DEBUG=!
 export DEBUG=1
 python manage.py runserver
 python manage.py runserver
 python manage.py runserver
 python manage.py runserver
 python manage.py runserver
-python manage.py makemessages -l tr -i venv
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+git status
+git add -A
+git commit -m "Fix reverse"
+git push
+export DEBUG=1
+python manage.py runserver
+cd ..
+git status
+git add -A
+git commit -m "Fix permission on adding dictionary"
+git push
+eb deploy
 export DEBUG=!
+python manage.py runserver
+python manage.py makemessages -l tr -i venv
+python manage.py makemessages -l tr -i venv
+python manage.py makemessages -l tr -i venv
+export PATH="/usr/local/opt/gettext/bin:$PATH"
+python manage.py makemessages -l tr -i venv
+python manage.py compilemessages -l tr -i venv
+git status
+git add -A
+git commit -m "Add translations"
+git push
+eb deploy
+python manage.py runserver
+export DEBUG=!
+python manage.py runserver
+export DEBUG=!
+python manage.py runserver
+export DEBUG=!
+python manage.py runserver
+pip install -r requirements.txt 
+python manage.py runserver
+python manage.py loaddata ~/sysreq_bakcup.json
+rm -rf venv
+which python3
+python3 --version
+python3 -m venv venv
+export DEBUG=1
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py migrate
+python manage.py runserver
+python filler.py
+cd ..
+python manage.py makemigrations
+python manage.py migrate
+cd ..
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+which python
+pip install django
+cd ..
+cd ..
 python manage.py makemessages -l tr -i venv
 python manage.py compilemessages -l tr -i venv
 python manage.py runserver
-git stauts
-git status
-git add -A
-git commit -m "Add heroku to allowed hosts"
-git push
-git add -A
-git commit -m "Add django_heroku to req.txt"
-git push
-git add -A
-git commit -m "Add django_heroku to req.txt"
-git push
+python manage.py migrate
+python manage.py runserver
+cd ..
+cd ..
+python manage.py makemessages -l tr -i venv
+python manage.py runserver
+python manage.py runserver
+which python
+python manage.py runserver
+cd ../../..
+cd ..
+ls
+python manage.py startapp message
+ls
 python manage.py makemigrations
-pip install django_heroku
-python manage.py makemigrations
-python manage.py makemigrations
-python manage.py migrate
-python manage.py migrate
-python manage.py migrate
-python manage.py migrate
-heroku run python manage.py migrate
-git status
-python manage.py runserver
-python manage.py runserver
-export DEBUG=1
-python manage.py runserver
-git status
-git add -A
-git commit -m "Fix db issue"
-git push
-eb deploy
-eb deploy
-eb deploy
-git status
-git add -A
-git commit -m "Try to fix db issue"
-git push
-git status
-git ad -A
-git add -A
-git status
-git commit -m "No backup"
-git push
-eb deploy
-git add -A
-git commit -m "Create leader for migrations"
-git push
-eb deploy
-python manage.py runserver
-export DEBUG=!
-python manage.py runserver
-export DEBUG=1
-python manage.py runserver
-python manage.py migrate
 python manage.py makemigrations
 python manage.py makemigrations
 python manage.py migrate
-python manage.py runserver
 python manage.py migrate
-python manage.py runserver
-python manage.py dumpdata dictionary > dicts.json
-python manage.py loaddata dicts.json
-python manage.py runserver
-python manage.py migrate
-python manage.py runserver
-python manage.py loaddata dicts.json
-python manage.py runserver
-python manage.py migrate
-python manage.py migrate
-python manage.py runserver
-python manage.py migrate
-python manage.py migrate
-python manage.py runserver
-python manage.py runserver
-python manage.py migrate
-python manage.py migrate
-python manage.py migrate
-python manage.py runserver
 python manage.py migrate
 python manage.py makemigrations
-python manage.py migrate
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py makemigrations chat
+python manage.py makemigrations chat
+python manage.py makemigrations
 python manage.py makemigrations
 python manage.py migrate
+python manage.py runsever
 python manage.py runserver
-python manage.py runserver
-rm dicts.json
-python manage.py dumpdata dictionary dicts.json
-python manage.py dumpdata dictionary > dicts.json
-python manage.py dumpdata auth > auth.json
+git status
+rm .git
+rm -rf .git
+git init
+git remote -v
+git remote add origin https://github.com/MarlonJD/parasut-python.git
+git status
+rm test.py\~ 
+rm .DS_Store
+git status
+git status
+rm README.md~
 git status
 git add -A
-commit -m "Add backup data"
-git commit -m "Add backup data"
+git commit -m "First commit"
 git push
-python manage.py migrateeb 
-python manage.py migrateeb 
-python manage.py migrate
-python manage.py loaddata auth.json 
-python manage.py loaddata dicts.json 
-python manage.py makemigrations
-python manage.py migrate
-python manage.py loaddata dicts.json 
-rm auth.json 
-python manage.py dumpdata auth.users > users.json
-python manage.py dumpdata auth.user
-python manage.py dumpdata auth.user > users.json
-python manage.py loaddata users.json 
-git stauts
 git status
-git add -A
-git commit -m "Save database"
-git push
-python manage.py loaddata auth.json
-export DEBUG=1
-python manage.py loaddata auth.json
-python manage.py python
-python manage.py runserver
+git reset
+git reset --hard
+git status
